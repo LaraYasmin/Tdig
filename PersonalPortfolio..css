@@ -1,0 +1,64 @@
+/* Navbar */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li {
+  margin: 0 10px;
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Welcome section */
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+
+#welcome-section h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+}
+
+/* Projects section */
+#projects {
+  padding: 50px;
+}
+
+.project-tile {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.project-tile a {
+  font-size: 1.5rem;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Media query */
+@media screen and (max-width: 768px) {
+  #navbar ul {
+    flex-direction: column;
