@@ -22,10 +22,10 @@ function App() {
 
       <section id="projects" className="p-5">
         <div className="project-tile">
-          <a href="#">Project 1</a>
+          <a href="https://github.com/LaraYasmin/Tdig/blob/master/Surveyform">Project 1</a>
         </div>
         <div className="project-tile">
-          <a href="#">Project 2</a>
+          <a href="https://github.com/LaraYasmin/Tdig/blob/master/Tributepage">Project 2</a>
         </div>
       </section>
 
